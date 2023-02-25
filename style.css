@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid orange; */
+}
+
+
+body{
+
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+:root{
+    --Cyan: #2ab2af;
+        --yellow: #c0df34;
+        --gray: #e5eff5;
+        --blue: #98a6bd;
+}
+
+.container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0.75rem;
+    
+}
+
+li{
+    padding: 4px 0;
+    color: var(--gray);
+}
+
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+@media screen and (min-width:640px) {
+    li{
+        padding: 2px;
+    }
+
+    .section-top{
+        border-radius: 0.75rem 0.75rem 0 0;
+        border: 1px white;
+    }
+}
